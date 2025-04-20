@@ -310,12 +310,12 @@ const audio = (() => {
 function pesan(){
 /* Pengaturan Whatsapp */
 var walink = 'https://wa.me/',
-    phone = '6288291138412', // No Whatsapp Kalian
-    walink2 = 'Hai kak, saya mau order : '; // Pesan Pembuka
+    phone = '6285781147726', // No Whatsapp Kalian
+    walink2 = 'Selamat Atas Pernikahannya '; // Pesan Pembuka
 
 /* Dukungan Smartphone */
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    var walink = 'whatsapp://send';
+    var walink = 'https://wa.me/';
 } 
 
 /* Formulir Input Panggilan */
