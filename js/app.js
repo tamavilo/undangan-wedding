@@ -313,11 +313,6 @@ var walink = 'https://wa.me/',
     phone = '6285781147726', // No Whatsapp Kalian
     walink2 = 'Selamat Atas Pernikahannya '; // Pesan Pembuka
 
-/* Dukungan Smartphone */
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    var walink = 'https://wa.me/';
-} 
-
 /* Formulir Input Panggilan */
 var input_nama = $("#form-nama").val(),
     input_kehadiran = $("#form-kehadiran :selected").text(),
