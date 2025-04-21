@@ -307,29 +307,3 @@ const audio = (() => {
 })();
 
 
-function pesan(){
-/* Pengaturan Whatsapp */
-var walink = 'https://wa.me/',
-    phone = '6285781147726', // No Whatsapp Kalian
-    walink2 = 'Selamat Atas Pernikahannya '; // Pesan Pembuka
-
-/* Formulir Input Panggilan */
-var input_nama = $("#form-nama").val(),
-    input_kehadiran = $("#form-kehadiran :selected").text(),
-    input_pesan = $("#form-pesan").val(),
-    input_viaUrl = location.href;
-
-/* URL Final Whatsapp */
-var wendy_whatsapp = walink + phone + '?text=' +
-    'Nama : ' + input_nama + '%0A' +
-    'Kehadiran : ' + input_kehadiran + '%0A' +
-    '%0A%0A' +
-    '*Pesan* : ' + input_pesan + '%0A' +
-    '=============================%0A';
-
-
-/* Buka Jendela Whatsapp  */
-window.open(wendy_whatsapp, '_blank');
-window.location.href = input_viaUrl;
-return false;
-}
