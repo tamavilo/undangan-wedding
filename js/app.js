@@ -255,7 +255,7 @@ const util = (() => {
 
 const progress = (() => {
 
-    const assets = document.querySelectorAll('img');
+    const assets = document.getElementById('nama-tamu');
     const info = document.getElementById('progress-info');
     const bar = document.getElementById('bar');
 
