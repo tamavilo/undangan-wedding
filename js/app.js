@@ -259,7 +259,7 @@ const progress = (() => {
     const info = document.getElementById('progress-info');
     const bar = document.getElementById('bar');
 
-    let total = 10;
+    let total = assets.length;
     let loaded = 0;
 
     const progress = () => {
