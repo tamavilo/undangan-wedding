@@ -161,7 +161,7 @@ const util = (() => {
         div.innerHTML = `<p class="mt-0 mb-1 mx-0 p-0 text-light">Kepada Yth Bapak/Ibu/Saudara/i</p><h2 class="text-light">${escapeHtml(name)}</h2><p class="text-light" style="font-size: 0.9rem;font-weight:italic">*Mohon maaf bila ada kesalahan penulisan nama dan gelar</p>`;
 
         document.getElementById('form-nama').value = name;
-        document.getElementById('form-nama2').value = name;
+        document.getElementById('form-nama2').value = document.getElementById('form-nama').value;
         document.getElementById('nama-tamu').appendChild(div);
     };
 
