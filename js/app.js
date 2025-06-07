@@ -218,6 +218,7 @@ const util = (() => {
         opacity('welcome');
         document.getElementById('tombol-musik').style.display = 'block';
         timer();
+        timer2();
 
         confetti({
             origin: { y: 0.9 },
